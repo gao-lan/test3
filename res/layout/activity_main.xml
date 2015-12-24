@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ 	 >
+ 	 
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="姓名"
+        />
+    
+    <EditText
+        android:id="@+id/input_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="年龄"
+        />
+    
+    <EditText
+        android:id="@+id/input_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="电话号码"
+        />
+    
+    <EditText
+        android:id="@+id/input_work"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="工作,请填TECH或者STUD"
+        />
+    
+	<Button
+	    android:onClick="add"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="添加并排序"
+	    />
+    
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+</LinearLayout>
